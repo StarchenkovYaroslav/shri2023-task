@@ -1,0 +1,24 @@
+{
+  "name": "shri2023-task",
+  "version": "1.0.0",
+  "description": "Оптимизировать страницу, выложить результат на Github-Pages и отправить его на проверку на [https://shri-performance.ru/](https://shri-performance.ru/), отправив адрес вашей страницы. Нужно набрать минимум **100 баллов**.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel components --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StarchenkovYaroslav/shri2023-task.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StarchenkovYaroslav/shri2023-task/issues"
+  },
+  "homepage": "https://github.com/StarchenkovYaroslav/shri2023-task#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react": "^6.24.1"
+  }
+}
