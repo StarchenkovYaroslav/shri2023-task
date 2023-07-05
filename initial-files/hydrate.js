@@ -354,17 +354,9 @@ function Main() {
   </main>;
 }
 
-// const root = ReactDOM.hydrateRoot(document.getElementById('app'), (
-//   <React.Fragment>
-//     <Header />
-//     <Main />
-//   </React.Fragment>
-// ));
-
-const root = ReactDOM.createRoot(document.getElementById('app'))
-root.render(
+const root = ReactDOM.hydrateRoot(document.getElementById('app'), (
   <React.Fragment>
     <Header />
     <Main />
   </React.Fragment>
-);
+));
