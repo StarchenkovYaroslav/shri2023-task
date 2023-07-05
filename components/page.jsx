@@ -356,14 +356,6 @@ function Main() {
   </main>;
 }
 
-// const root = ReactDOM.createRoot(document.getElementById('app'));
-// root.render(
-//   <React.Fragment>
-//     <Header />
-//     <Main />
-//   </React.Fragment>
-// );
-
 const Page = () => {
   return (
     <>
