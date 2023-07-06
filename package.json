@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "minify:hydrate": "babel initial-files/hydrate.js --out-dir ./",
+    "minify:script": "babel initial-files/script.js --out-dir ./",
     "minify:react-with-dom": "babel vendors/react-with-dom.js --out-dir ./"
   },
   "repository": {
